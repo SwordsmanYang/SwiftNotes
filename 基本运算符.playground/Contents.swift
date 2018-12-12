@@ -2,26 +2,53 @@
 
 import UIKit
 
-//基础内容
-let cat = "?"
-print(cat)
+//基本运算符
 
-let http404Error = (404, "not found")
+var money = 299
+let hkmoney = 288
 
-let (statuCode, statusMessage) = http404Error;
+money = hkmoney
+let (x, y, z) = (32, 23, 22)
+print(x)
 
-print("the statuCode is \(statuCode)")
-print("the message is \(http404Error.1)")
 
-let http200Status = (statusCode: 200, description: "OK")
-print("The status message is \(http200Status.description)")
+print(money)
 
-let nihao = "233"
-let nihaoInt : Double? = Double(nihao)
+let three = -3
+let minthree = -three
 
-print(nihaoInt!)
+let addthree = +three
 
-//let tooBig:Int8 = Int8.max + 1
+var a = 1
+a += 2
+
+let contentHeight = 50
+let hasHeader = true
+let rowHeight = contentHeight + (hasHeader ? contentHeight : 20)
+let row1Height = hasHeader ? 99 : 88
+
+var hh: String?
+let zz = "red"
+
+let time = hh ?? zz
+
+for index in 1..<5{
+    print("time is \(index)")
+}
+
+let names = [1,2,3,4,5]
+
+
+for name in names[..<2]{
+    print("name = \(name)")
+}
+
+
+
+
+
+
+
 
 
 
